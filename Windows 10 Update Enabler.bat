@@ -54,7 +54,7 @@ SCHTASKS /Change /TN "\Microsoft\Windows\UpdateOrchestrator\UpdateAssistantWakeu
 shutdown /r /f /t 10 /c "Windows 10 Update Enabled, Restarting in 10 seconds."
 
 echo.
-echo Windows 10 Update Enabled, Restarting in 10 seconds.
+echo Windows 10 Update Enabled.
 echo.
 
 pause > NUL
