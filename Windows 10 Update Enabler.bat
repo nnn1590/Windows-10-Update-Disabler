@@ -18,9 +18,8 @@ if %errorlevel%==0 (
     echo.
     echo Right-click on me and select ^'Run as Administrator^' and try again.
     echo.
-    echo Press any key to exit..
-    pause > NUL
-    exit
+    pause
+    exit /b
 )
 
 echo.
@@ -57,5 +56,5 @@ echo.
 echo Windows 10 Update Enabled.
 echo.
 
-pause > NUL
-exit
+pause
+exit /b
